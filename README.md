@@ -1,4 +1,4 @@
-# snippetlab
+# SnippetLab CLI
 
 A simple CLI tool to download code snippets by `user/slug` identifier from the SnippetLab API and save them to disk or stdout.
 
