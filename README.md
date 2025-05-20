@@ -73,13 +73,16 @@ snippetlab add <user/slug> [output] [--base-url <url>]
 1. Clone the repo:
 
    ```bash
-   git clone [https://github.com/aaronperezaguilera/snippetlab.git](https://github.com/aaronperezaguilera/snippetlab.git)
+   git clone [https://github.com/aaronperezaguilera/snippetlab-cli.git](https://github.com/aaronperezaguilera/snippetlab-cli.git)
    cd snippetlab
    ```
 
 2. Install dependencies:
+
    ```bash
-   npm install
+    npm install
+    # or
+    pnpm install
    ```
 
 3. Link locally for testing:
