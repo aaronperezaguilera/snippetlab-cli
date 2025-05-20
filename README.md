@@ -1,7 +1,5 @@
 # snippetlab
 
-**Version 0.1.0**
-
 A simple CLI tool to download code snippets by `user/slug` identifier from the SnippetLab API and save them to disk or stdout.
 
 ## Features
@@ -79,12 +77,10 @@ snippetlab add <user/slug> [output] [--base-url <url>]
    cd snippetlab
    ```
 
-````
-
 2. Install dependencies:
    ```bash
-npm install
-````
+   npm install
+   ```
 
 3. Link locally for testing:
 
@@ -92,13 +88,10 @@ npm install
    npm link
    ```
 
-````
-
-
 4. Run in local dev mode:
    ```bash
-snippetlab add aaron/test-snippet --base-url http://localhost:3000
-````
+   snippetlab add aaron/test-snippet --base-url http://localhost:3000
+   ```
 
 ## Contributing
 
